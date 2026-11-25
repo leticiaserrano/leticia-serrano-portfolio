@@ -114,7 +114,8 @@ button { font: inherit; color: inherit; }
 }
 .nav.is-scrolled { border-bottom-color: var(--line); }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 76px; }
-.nav__brand { font-size: 18px; letter-spacing: -.01em; color: var(--ink); white-space: nowrap; }
+.nav__brand { display: inline-flex; align-items: center; color: var(--ink); white-space: nowrap; }
+.nav__logo { display: block; height: 30px; width: auto; max-width: 62vw; }
 .nav__links { display: flex; align-items: center; gap: 36px; list-style: none; margin: 0; padding: 0; }
 .nav__links a:not(.btn) { color: var(--muted); font-size: 16px; transition: color .2s; }
 .nav__links a:not(.btn):hover, .nav__links a[aria-current="page"] { color: var(--ink); }
